@@ -14,7 +14,7 @@ struct SettingsView: View {
     var body: some View {
         Stepper("Max Count: \(max)", value: $max)
             .font(.title)
-            .padding()
+            .padding() 
             .background(Color.white, in: .rect(cornerRadius: 10))
             .padding()
     }

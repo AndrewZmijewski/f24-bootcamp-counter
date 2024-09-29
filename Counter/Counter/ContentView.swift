@@ -13,7 +13,7 @@ struct ContentView: View {
     let textColor: Color = .white
     @State var counter = 0
     @State var max: Int = 10
-    var percentFull: Double {
+    var percentFull: Double { 
         Double(counter) / Double(max)
     }
     
